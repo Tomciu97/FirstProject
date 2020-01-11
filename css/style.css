@@ -1,0 +1,194 @@
+/************** TAG SELECTOR **************/
+
+html, body {
+   height: 100%;
+   margin: 0;
+ }
+
+body {
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   color: #40514E;
+}
+
+h1 {
+   font-family: 'Sacramento', cursive;
+   font-size: 5.62rem;
+   line-height: 2;
+}
+
+h1, h2 {
+   color: #66BFBF;
+}
+h2, h3 {
+   font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+   color: #11999E;
+}
+
+h2 {
+   font-size: 2.5rem;
+}
+
+h3 {
+   margin-top: 20px;
+}
+
+hr {
+   border-style: none;
+   border-top-style: dotted;
+   border-color: grey;
+   border-width: 7px;
+   width: 5%;
+   margin: 100px auto;
+}
+
+a:hover {
+   color: #eaf6f6;
+}
+
+/************** CLASS SELECTOR **************/
+
+.container-fluid{
+   background-color: #E4F9F5;
+
+}
+
+.my-picture{
+   height: 280px;
+   width: 200px;
+   border-radius: 60%;
+   margin: 100px auto;
+}
+
+.middle-container {
+   width: 50%;
+   margin: 0 auto;
+   line-height: 2;
+}
+
+.bottom-container {
+   background-color: #66BFBF  ;
+}
+
+.bottom-container > a {
+   text-decoration: none;
+   margin: 50px 25px;
+   display: inline-block;
+   font-weight: bolder;
+}
+
+.bottom-container > div {
+   text-decoration: none;
+   margin: 0 auto 50px 0;
+}
+
+.bottom-container > div > a {
+   text-decoration: none;
+   display: inline-block;
+   font-weight: bolder;
+}
+
+.bottom-container > p {
+   text-decoration: none;
+   display: inline-block;
+   font-weight: bolder;
+   font-size: small;
+   color: white;
+   margin: 0 auto 40px auto;
+}
+
+.skill-row {
+   width: 50%;
+   margin: 100px auto;
+   text-align: center;
+   line-height: 2;
+}
+
+.computer-picture {
+   margin: 0px auto;
+   width: 50%;
+}
+
+.pro {
+   text-decoration: underline;
+}
+
+.programer{
+   font-weight: normal;
+}
+
+.top-cloud {
+   padding-top: 5%;
+   margin: 0 12vw auto auto;
+}
+
+.bottom-cloud {
+   margin: 0 auto auto 12vw;
+}
+
+.html-logo, .css-logo, .js-logo, .php-logo, .py-logo {
+   width: 45%;
+}
+
+.btn {
+   background-color: rgb(15, 119, 119);
+   color: white;
+   text-decoration: none; 
+   padding: 10px 15px; 
+   margin: 70px auto;
+   display: inline-block;
+   border-radius: 5%;
+}
+
+/************** ID SELECTOR **************/
+
+
+/************** MEDIA **************/
+@media (max-width: 800px){
+   .html-logo, .css-logo, .js-logo, .php-logo, .py-logo {
+      width: 55%;
+   }
+   hr {
+      width: 25%;
+      margin: 50px auto;
+   }
+
+   .skill-row {
+      width: 90%;
+      margin: 100px auto;
+      text-align: center;
+      line-height: 2;
+   }
+   .middle-container {
+      min-width: 270px;
+      margin: 0 auto;
+   }
+   h1 {
+      font-family: 'Sacramento', cursive;
+      font-size: 4.2rem;
+   }
+   h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+   }
+   .cloud {
+      width:70%;
+   }
+   .container-fluid {
+      height: 100vh;
+   }
+   .mountain {
+      max-width: 300px;
+   }
+   .footer-link, .bottom-container > div {
+      font-size: small;
+   }
+   .btn {
+      margin: 60px auto;
+   }
+}
+
+
